@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+
+  datasource:
+    initialize: true
+    continueOnError: true
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/vaadindb
+    password: qwerty
+    username: root
+    data-password: qwerty
+    data-username: root
+
